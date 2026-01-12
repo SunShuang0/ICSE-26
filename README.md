@@ -4,70 +4,121 @@
   <img src="https://img.shields.io/badge/Status-Partial-orange" />
   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen" />
 </p>
-
 # 📘 ICSE 2026 Accepted Papers - Preprint Index
-This repository provides an unofficial, partially collected list of publicly accessible preprints or author versions of papers accepted to the **48th International Conference on Software Engineering (ICSE 2026)**, to be held on April 12-18, 2026.
-
-The goal is to help researchers quickly find openly available versions of ICSE '26 papers before the official proceedings are published. Only public links are included. No copyrighted PDFs or publisher versions are hosted here.
-
-**Contributions are welcome!**
-
-## Table of Contents
-- [About](#about)
-- [Paper List](#paper-list)
-- [Contributing](#contributing)
-- [Disclaimer](#disclaimer)
-- [Auto-Generation Script](#auto-generation-script)
+This repository provides an unofficial, partially collected list of publicly accessible preprints or author versions of papers accepted to the **48th International Conference on Software Engineering (ICSE 2026)**, to be held on April 12-18, 2026.<br/>
+The goal is to help researchers quickly find openly available versions of ICSE '26 papers before the official proceedings are published. Only public links are included. No copyrighted PDFs or publisher versions are hosted here.<br/>
+**Contributions are welcome!**<br/>
 
 # 📌 Paper List (Partial)
 - 📄 **SeRe: A Security-Related Code Review Dataset Aligned with Real-World Review Activities**  
   Authors: Zixiao Zhao, Yanjie Jiang, Hui Liu, Kui Liu, Lu Zhang<br/>
   <a href="https://arxiv.org/abs/2601.01042" target="_blank">Preprint</a><br/>
+  <details>
+    <summary><strong>⭐ Abstract</strong></summary>
+    Software security vulnerabilities can lead to severe consequences, making early detection essential. Although code review serves as a critical defense mechanism against security flaws, relevant feedback remains scarce due to limited attention to security issues or a lack of expertise among reviewers. Existing datasets and studies primarily focus on general-purpose code review comments, either lacking security-specific annotations or being too limited in scale to support large-scale research. To bridge this gap, we introduce \textbf{SeRe}, a \textbf{security-related code review dataset}, constructed using an active learning-based ensemble classification approach. The proposed approach iteratively refines model predictions through human annotations, achieving high precision while maintaining reasonable recall. Using the fine-tuned ensemble classifier, we extracted 6,732 security-related reviews from 373,824 raw review instances, ensuring representativeness across multiple programming languages. Statistical analysis indicates that SeRe generally \textbf{aligns with real-world security-related review distribution}. To assess both the utility of SeRe and the effectiveness of existing code review comment generation approaches, we benchmark state-of-the-art approaches on security-related feedback generation. By releasing SeRe along with our benchmark results, we aim to advance research in automated security-focused code review and contribute to the development of more effective secure software engineering practices.
+  </details>
 - 📄 **RovoDev Code Reviewer: A Large-Scale Online Evaluation of LLM-based Code Review Automation at Atlassian**  
   Authors: Kla Tantithamthavorn, Yaotian Zou, Andy Wong, Michael Gupta, Zhe Wang, Mike Buller, Ryan Jiang, Matthew Watson, Minwoo Jeong, Kun Chen, Ming Wu<br/>
   <a href="https://arxiv.org/abs/2601.01129" target="_blank">Preprint</a><br/>
+  <details>
+    <summary><strong>⭐ Abstract</strong></summary>
+    Large Language Models (LLMs)-powered code review automation has the potential to transform code review workflows. Despite the advances of LLM-powered code review comment generation approaches, several practical challenges remain for designing enterprise-grade code review automation tools. In particular, this paper aims at answering the practical question: how can we design a review-guided, context-aware, quality-checked code review comment generation without fine-tuning?
+In this paper, we present RovoDev Code Reviewer, an enterprise-grade LLM-based code review automation tool designed and deployed at scale within Atlassian's development ecosystem with seamless integration into Atlassian's Bitbucket. Through the offline, online, user feedback evaluations over a one-year period, we conclude that RovoDev Code Reviewer is (1) effective in generating code review comments that could lead to code resolution for 38.70% (i.e., comments that triggered code changes in the subsequent commits); and (2) offers the promise of accelerating feedback cycles (i.e., decreasing the PR cycle time by 30.8%), alleviating reviewer workload (i.e., reducing the number of human-written comments by 35.6%), and improving overall software quality (i.e., finding errors with actionable suggestions).
+  </details>
 - 📄 **Test Flimsiness: Characterizing Flakiness Induced by Mutation to the Code Under Test**  
   Authors: Owain Parry, Gregory M. Kapfhammer, Michael Hilton, and Phil McMinn<br/>
   <a href="https://o-parry.github.io/papers/2026a.pdf" target="_blank">Preprint</a><br/>
+  <details>
+    <summary><strong>⭐ Abstract</strong></summary>
+    Flaky tests, which fail non-deterministically against the same version of code, pose a well-established challenge to software developers. In this paper, we characterize the overlooked phenomenon of test FLIMsiness: FLakiness Induced by Mutations to the code under test. These mutations are generated by the same operators found in standard mutation testing tools. Flimsiness has profound implications for software testing researchers. Previous studies quantified the impact of pre-existing flaky tests on mutation testing, but we reveal that mutations themselves can induce flakiness, exposing a previously neglected threat. This has serious effects beyond mutation testing, calling into question the reliability of any technique that relies on deterministic test outcomes in response to mutations. On the other hand, flimsiness presents an opportunity to surface potential flakiness that may otherwise remain hidden. Prior work perturbed the execution environment to augment rerunning-based detection and the test code to support benchmarking. We advance these efforts by perturbing a third major source of flakiness: the code under test. We conducted an empirical study on over half a million test suite executions across 28 Python projects. Our statistical analysis on over 30 million mutant-test pairs unveiled flimsiness in 54% of projects. We found that extending the standard rerunning flaky test detection strategy with code-under-test mutations detects a substantially larger number of flaky tests (median 740 vs. 163) and uncovers many that the standard strategy is unlikely to detect.
+  </details>
 - 📄 **On the Robustness of Fairness Practices: A Causal Framework for Systematic Evaluation**  
   Authors: Verya Monjezi, Ashish Kumar, Ashutosh Trivedi, Gang Tan, Saeid Tizpaz-Niari<br/>
   <a href="https://arxiv.org/abs/2601.03621" target="_blank">Preprint</a><br/>
+  <details>
+    <summary><strong>⭐ Abstract</strong></summary>
+    
+  </details>
 - 📄 **Hypothesize-Then-Verify: Speculative Root Cause Analysis for Microservices with Pathwise Parallelism**  
   Authors: Lingzhe Zhang, Tong Jia, Yunpeng Zhai, Leyi Pan, Chiming Duan, Minghua He, Pei Xiao, Ying Li<br/>
   <a href="https://arxiv.org/abs/2601.02736" target="_blank">Preprint</a><br/>
+  <details>
+    <summary><strong>⭐ Abstract</strong></summary>
+    
+  </details>
 - 📄 **Green LLM Techniques in Action: How Effective Are Existing Techniques for Improving the Energy Efficiency of LLM-Based Applications in Industry?**  
   Authors: Pelin Rabia Kuran, Rumbidzai Chitakunye, Vincenzo Stoico, Ilja Heitlager, Justus Bogner<br/>
   <a href="https://arxiv.org/abs/2601.02512" target="_blank">Preprint</a><br/>
+  <details>
+    <summary><strong>⭐ Abstract</strong></summary>
+    
+  </details>
 - 📄 **Context-Adaptive Requirements Defect Prediction through Human-LLM Collaboration**  
   Authors: Max Unterbusch, Andreas Vogelsang<br/>
   <a href="https://arxiv.org/abs/2601.01952" target="_blank">Preprint</a><br/>
+  <details>
+    <summary><strong>⭐ Abstract</strong></summary>
+    
+  </details>
 - 📄 **Designing Abandabot: When Does Open Source Dependency Abandonment Matter?**  
   Authors: Courtney Miller, Hao He, Weigen Chen, Elizabeth Lin, Chenyang Yang, Bogdan Vasilescu, Christian Kästner<br/>
   <a href="https://cmustrudel.github.io/papers/icse2026dependabot.pdf" target="_blank">Preprint</a><br/>
+  <details>
+    <summary><strong>⭐ Abstract</strong></summary>
+    
+  </details>
 - 📄 **Agentic Memory Enhanced Recursive Reasoning for Root Cause Localization in Microservices**  
   Authors: Lingzhe Zhang, Tong Jia, Yunpeng Zhai, Leyi Pan, Chiming Duan, Minghua He, Mengxi Jia, Ying Li<br/>
   <a href="https://arxiv.org/abs/2601.02732" target="_blank">Preprint</a><br/>
+  <details>
+    <summary><strong>⭐ Abstract</strong></summary>
+    
+  </details>
 - 📄 **Synthesizing Hardware-Specific Instructions for Efficient Code Generation of Simulink**  
   Authors: Zehong Yu, Zhuo Su, Rui Wang, Yu Jiang<br/>
   <a href="https://yzhddding.github.io/assets/pdf/ICSE26_AMICA.pdf" target="_blank">Preprint</a><br/>
+  <details>
+    <summary><strong>⭐ Abstract</strong></summary>
+    
+  </details>
 - 📄 **Are Humans and LLMs Confused by the Same Code? An Empirical Study on Fixation-Related Potentials and LLM Perplexity**  
   Authors: Y Abdelsalam, N Peitek, AM Maurer, M Toneva, S Apel<br/>
   <a href="https://www.se.cs.uni-saarland.de/publications/docs/APM+26.pdf" target="_blank">Preprint</a><br/>
+  <details>
+    <summary><strong>⭐ Abstract</strong></summary>
+    
+  </details>
 - 📄 **Hallucinating Certificates: Differential Testing of TLS Certificate Validation Using Generative Language Models**  
   Authors: MT Paracha, K Posluns, K Borgolte, M Lindorfer, D Choffnes<br/>
   <a href="https://softsec.ruhr-uni-bochum.de/files/pdf/icse2026-hallucinating-certificates.pdf" target="_blank">Preprint</a><br/>
+  <details>
+    <summary><strong>⭐ Abstract</strong></summary>
+    
+  </details>
 - 📄 **PTV: Scalable Version Detection of Web Libraries and its Security Application**  
   Authors: X Liu, H Cai, L Ziarek<br/>
   <a href="https://aaronxyliu.github.io/download/ptv-ready.pdf" target="_blank">Preprint</a><br/>
+  <details>
+    <summary><strong>⭐ Abstract</strong></summary>
+    
+  </details>
 - 📄 **Exploring and Improving Real-World Vulnerability Data Generation via Prompting Large Language Models**  
   Authors: G Yi, Y Nong, M Li, H Cai<br/>
   <a href="https://www.researchgate.net/profile/Haipeng-Cai/publication/397867637_Exploring_and_Improving_Real-World_Vulnerability_Data_Generation_via_Prompting_Large_Language_Models/links/69213f11e889e65e79684967/Exploring-and-Improving-Real-World-Vulnerability-Data-Generation-via-Prompting-Large-Language-Models.pdf" target="_blank">Preprint</a><br/>
+  <details>
+    <summary><strong>⭐ Abstract</strong></summary>
+    
+  </details>
 - 📄 **AgentSpec: Customizable runtime enforcement for safe and reliable LLM agents**  
   Authors: WANG, Haoyu; POSKITT, Christopher M.; and SUN, Jun<br/>
   <a href="https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?params=/context/sis_research/article/11279/&path_info=2503.18666v3.pdf" target="_blank">Preprint</a><br/>
 - 📄 **Views on Internal and External Validity in Empirical Software Engineering: 10 Years Later and Beyond**  
   Authors: Alina Mailach, Janet Siegmund, Sven Apel, and Norbert Siegmund<br/>
   <a href="https://www.tu-chemnitz.de/informatik/ST/publications/papers/10-years-validity.pdf" target="_blank">Preprint</a><br/>
+  <details>
+    <summary><strong>⭐ Abstract</strong></summary>
+    
+  </details>
 - 📄 **Advancing Language Models for Code-related Tasks**  
   Authors: Zhao Tian<br/>
   <a href="https://arxiv.org/abs/2601.04526" target="_blank">Preprint</a><br/>
