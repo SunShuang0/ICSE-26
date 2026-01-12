@@ -4,12 +4,13 @@
   <img src="https://img.shields.io/badge/Status-Partial-orange" />
   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen" />
 </p>
+
 # 📘 ICSE 2026 Accepted Papers - Preprint Index
 This repository provides an unofficial, partially collected list of publicly accessible preprints or author versions of papers accepted to the **48th International Conference on Software Engineering (ICSE 2026)**, to be held on April 12-18, 2026.<br/>
 The goal is to help researchers quickly find openly available versions of ICSE '26 papers before the official proceedings are published. Only public links are included. No copyrighted PDFs or publisher versions are hosted here.<br/>
 **Contributions are welcome!**<br/>
 
-# 📌 Paper List (Partial)
+# 🎯 Paper List (Partial)
 - 📄 **SeRe: A Security-Related Code Review Dataset Aligned with Real-World Review Activities**  
   Authors: Zixiao Zhao, Yanjie Jiang, Hui Liu, Kui Liu, Lu Zhang<br/>
   <a href="https://arxiv.org/abs/2601.01042" target="_blank">Preprint</a><br/>
@@ -22,8 +23,7 @@ The goal is to help researchers quickly find openly available versions of ICSE '
   <a href="https://arxiv.org/abs/2601.01129" target="_blank">Preprint</a><br/>
   <details>
     <summary><strong>⭐ Abstract</strong></summary>
-    Large Language Models (LLMs)-powered code review automation has the potential to transform code review workflows. Despite the advances of LLM-powered code review comment generation approaches, several practical challenges remain for designing enterprise-grade code review automation tools. In particular, this paper aims at answering the practical question: how can we design a review-guided, context-aware, quality-checked code review comment generation without fine-tuning?
-In this paper, we present RovoDev Code Reviewer, an enterprise-grade LLM-based code review automation tool designed and deployed at scale within Atlassian's development ecosystem with seamless integration into Atlassian's Bitbucket. Through the offline, online, user feedback evaluations over a one-year period, we conclude that RovoDev Code Reviewer is (1) effective in generating code review comments that could lead to code resolution for 38.70% (i.e., comments that triggered code changes in the subsequent commits); and (2) offers the promise of accelerating feedback cycles (i.e., decreasing the PR cycle time by 30.8%), alleviating reviewer workload (i.e., reducing the number of human-written comments by 35.6%), and improving overall software quality (i.e., finding errors with actionable suggestions).
+    Large Language Models (LLMs)-powered code review automation has the potential to transform code review workflows. Despite the advances of LLM-powered code review comment generation approaches, several practical challenges remain for designing enterprise-grade code review automation tools. In particular, this paper aims at answering the practical question: how can we design a review-guided, context-aware, quality-checked code review comment generation without fine-tuning? In this paper, we present RovoDev Code Reviewer, an enterprise-grade LLM-based code review automation tool designed and deployed at scale within Atlassian's development ecosystem with seamless integration into Atlassian's Bitbucket. Through the offline, online, user feedback evaluations over a one-year period, we conclude that RovoDev Code Reviewer is (1) effective in generating code review comments that could lead to code resolution for 38.70% (i.e., comments that triggered code changes in the subsequent commits); and (2) offers the promise of accelerating feedback cycles (i.e., decreasing the PR cycle time by 30.8%), alleviating reviewer workload (i.e., reducing the number of human-written comments by 35.6%), and improving overall software quality (i.e., finding errors with actionable suggestions).
   </details>
 - 📄 **Test Flimsiness: Characterizing Flakiness Induced by Mutation to the Code Under Test**  
   Authors: Owain Parry, Gregory M. Kapfhammer, Michael Hilton, and Phil McMinn<br/>
@@ -37,94 +37,98 @@ In this paper, we present RovoDev Code Reviewer, an enterprise-grade LLM-based c
   <a href="https://arxiv.org/abs/2601.03621" target="_blank">Preprint</a><br/>
   <details>
     <summary><strong>⭐ Abstract</strong></summary>
-    
+    Machine learning (ML) algorithms are increasingly deployed to make critical decisions in socioeconomic applications such as finance, criminal justice, and autonomous driving. However, due to their data-driven and pattern-seeking nature, ML algorithms may develop decision logic that disproportionately distributes opportunities, benefits, resources, or information among different population groups, potentially harming marginalized communities. In response to such fairness concerns, the software engineering and ML communities have made significant efforts to establish the best practices for creating fair ML software. These include fairness interventions for training ML models, such as including sensitive features, selecting non-sensitive attributes, and applying bias mitigators. But how reliably can software professionals tasked with developing data-driven systems depend on these recommendations? And how well do these practices generalize in the presence of faulty labels, missing data, or distribution shifts? These questions form the core theme of this paper.
   </details>
 - 📄 **Hypothesize-Then-Verify: Speculative Root Cause Analysis for Microservices with Pathwise Parallelism**  
   Authors: Lingzhe Zhang, Tong Jia, Yunpeng Zhai, Leyi Pan, Chiming Duan, Minghua He, Pei Xiao, Ying Li<br/>
   <a href="https://arxiv.org/abs/2601.02736" target="_blank">Preprint</a><br/>
   <details>
     <summary><strong>⭐ Abstract</strong></summary>
-    
+    Microservice systems have become the backbone of cloud-native enterprise applications due to their resource elasticity, loosely coupled architecture, and lightweight deployment. Yet, the intrinsic complexity and dynamic runtime interactions of such systems inevitably give rise to anomalies. Ensuring system reliability therefore hinges on effective root cause analysis (RCA), which entails not only localizing the source of anomalies but also characterizing the underlying failures in a timely and interpretable manner. Recent advances in intelligent RCA techniques, particularly those powered by large language models (LLMs), have demonstrated promising capabilities, as LLMs reduce reliance on handcrafted features while offering cross-platform adaptability, task generalization, and flexibility. However, existing LLM-based methods still suffer from two critical limitations: (a) limited exploration diversity, which undermines accuracy, and (b) heavy dependence on large-scale LLMs, which results in slow inference. To overcome these challenges, we propose SpecRCA, a speculative root cause analysis framework for microservices that adopts a \textit{hypothesize-then-verify} paradigm. SpecRCA first leverages a hypothesis drafting module to rapidly generate candidate root causes, and then employs a parallel root cause verifier to efficiently validate them. Preliminary experiments on the AIOps 2022 dataset demonstrate that SpecRCA achieves superior accuracy and efficiency compared to existing approaches, highlighting its potential as a practical solution for scalable and interpretable RCA in complex microservice environments.
   </details>
 - 📄 **Green LLM Techniques in Action: How Effective Are Existing Techniques for Improving the Energy Efficiency of LLM-Based Applications in Industry?**  
   Authors: Pelin Rabia Kuran, Rumbidzai Chitakunye, Vincenzo Stoico, Ilja Heitlager, Justus Bogner<br/>
   <a href="https://arxiv.org/abs/2601.02512" target="_blank">Preprint</a><br/>
   <details>
     <summary><strong>⭐ Abstract</strong></summary>
-    
+    The rapid adoption of large language models (LLMs) has raised concerns about their substantial energy consumption, especially when deployed at industry scale. While several techniques have been proposed to address this, limited empirical evidence exists regarding the effectiveness of applying them to LLM-based industry applications. To fill this gap, we analyzed a chatbot application in an industrial context at Schuberg Philis, a Dutch IT services company. We then selected four techniques, namely Small and Large Model Collaboration, Prompt Optimization, Quantization, and Batching, applied them to the application in eight variations, and then conducted experiments to study their impact on energy consumption, accuracy, and response time compared to the unoptimized baseline. Our results show that several techniques, such as Prompt Optimization and 2-bit Quantization, managed to reduce energy use significantly, sometimes by up to 90%. However, these techniques especially impacted accuracy negatively, to a degree that is not acceptable in practice. The only technique that achieved significant and strong energy reductions without harming the other qualities substantially was Small and Large Model Collaboration via Nvidia's Prompt Task and Complexity Classifier (NPCC) with prompt complexity thresholds. This highlights that reducing the energy consumption of LLM-based applications is not difficult in practice. However, improving their energy efficiency, i.e., reducing energy use without harming other qualities, remains challenging. Our study provides practical insights to move towards this goal.
   </details>
 - 📄 **Context-Adaptive Requirements Defect Prediction through Human-LLM Collaboration**  
   Authors: Max Unterbusch, Andreas Vogelsang<br/>
   <a href="https://arxiv.org/abs/2601.01952" target="_blank">Preprint</a><br/>
   <details>
     <summary><strong>⭐ Abstract</strong></summary>
-    
+    Automated requirements assessment traditionally relies on universal patterns as proxies for defectiveness, implemented through rule-based heuristics or machine learning classifiers trained on large annotated datasets. However, what constitutes a "defect" is inherently context-dependent and varies across projects, domains, and stakeholder interpretations. In this paper, we propose a Human-LLM Collaboration (HLC) approach that treats defect prediction as an adaptive process rather than a static classification task. HLC leverages LLM Chain-of-Thought reasoning in a feedback loop: users validate predictions alongside their explanations, and these validated examples adaptively guide future predictions through few-shot learning. We evaluate this approach using the weak word smell on the QuRE benchmark of 1,266 annotated Mercedes-Benz requirements. Our results show that HLC effectively adapts to the provision of validated examples, with rapid performance gains from as few as 20 validated examples. Incorporating validated explanations, not just labels, enables HLC to substantially outperform both standard few-shot prompting and fine-tuned BERT models while maintaining high recall. These results highlight how the in-context and Chain-of-Thought learning capabilities of LLMs enable adaptive classification approaches that move beyond one-size-fits-all models, creating opportunities for tools that learn continuously from stakeholder feedback.
   </details>
 - 📄 **Designing Abandabot: When Does Open Source Dependency Abandonment Matter?**  
   Authors: Courtney Miller, Hao He, Weigen Chen, Elizabeth Lin, Chenyang Yang, Bogdan Vasilescu, Christian Kästner<br/>
   <a href="https://cmustrudel.github.io/papers/icse2026dependabot.pdf" target="_blank">Preprint</a><br/>
   <details>
     <summary><strong>⭐ Abstract</strong></summary>
-    
+    Despite the inevitable risk posed by abandoned open source dependencies, many developers feel they lack sufficient guidance on how to deal with dependency abandonment. Automated detection of abandonment is feasible, but not all abandoned dependencies impact downstream projects equally. In this paper, we perform a need-finding interview study with 22 open source maintainers exploring what makes the abandonment of certain dependencies impactful to their project given the context of their usage, as well as their information needs and design requirements for such an automated notification tool. We identify four categories of contextspecific information that often affect the impactfulness of a given dependency’s abandonment to a particular downstream project: the depth of integration, the availability of alternatives, the importance of the functionality, and external environmental pressures. Using this emerging theory, we then build an LLM-based classifier to predict the impact of a dependency’s abandonment in a given context, and evaluate it with an independent user study with 124 open source maintainers. Our results show that the classifier is effective at predicting whether a dependency’s abandonment would be impactful to a project and that LLM-generated theory-based explanations are useful to many developers when making judgments about the potential impactfulness of abandonment.
   </details>
 - 📄 **Agentic Memory Enhanced Recursive Reasoning for Root Cause Localization in Microservices**  
   Authors: Lingzhe Zhang, Tong Jia, Yunpeng Zhai, Leyi Pan, Chiming Duan, Minghua He, Mengxi Jia, Ying Li<br/>
   <a href="https://arxiv.org/abs/2601.02732" target="_blank">Preprint</a><br/>
   <details>
     <summary><strong>⭐ Abstract</strong></summary>
-    
+    As contemporary microservice systems become increasingly popular and complex-often comprising hundreds or even thousands of fine-grained, interdependent subsystems-they are experiencing more frequent failures. Ensuring system reliability thus demands accurate root cause localization. While many traditional graph-based and deep learning approaches have been explored for this task, they often rely heavily on pre-defined schemas that struggle to adapt to evolving operational contexts. Consequently, a number of LLM-based methods have recently been proposed. However, these methods still face two major limitations: shallow, symptom-centric reasoning that undermines accuracy, and a lack of cross-alert reuse that leads to redundant reasoning and high latency. In this paper, we conduct a comprehensive study of how Site Reliability Engineers (SREs) localize the root causes of failures, drawing insights from professionals across multiple organizations. Our investigation reveals that expert root cause analysis exhibits three key characteristics: recursiveness, multi-dimensional expansion, and cross-modal reasoning. Motivated by these findings, we introduce AMER-RCL, an agentic memory enhanced recursive reasoning framework for root cause localization in microservices. AMER-RCL employs the Recursive Reasoning RCL engine, a multi-agent framework that performs recursive reasoning on each alert to progressively refine candidate causes, while Agentic Memory incrementally accumulates and reuses reasoning from prior alerts within a time window to reduce redundant exploration and lower inference latency. Experimental results demonstrate that AMER-RCL consistently outperforms state-of-the-art methods in both localization accuracy and inference efficiency.
   </details>
 - 📄 **Synthesizing Hardware-Specific Instructions for Efficient Code Generation of Simulink**  
   Authors: Zehong Yu, Zhuo Su, Rui Wang, Yu Jiang<br/>
   <a href="https://yzhddding.github.io/assets/pdf/ICSE26_AMICA.pdf" target="_blank">Preprint</a><br/>
   <details>
     <summary><strong>⭐ Abstract</strong></summary>
-    
+    Simulink has become a pivotal tool in embedded scenarios, offering a model-driven approach for embedded software development. Given the tight performance and resource constraints in embedded applications, it is crucial to ensure the efficiency of the code generated from Simulink models. Code generators implement various optimizations to enhance performance. However, they neglect the potential of hardware-specific instructions available in modern processors, such as saturation-type instructions, which accomplish complex operations in fewer cycles. Moreover, relying on state-ofthe-art compilers to use these instructions is also not as effective as expectation, due to their complex semantics. This paper proposes Amica, an efficient code generator for Simulink models with hardware-specific instruction synthesis. The key insight of Amica is to leverage model semantics to effectively synthesize the appropriate instructions. Amica first converts the model into the dataflow graph and crafts a series of optimization rules represented as dataflow subgraph with constraints related to block parameters, data types, and other critical properties. Then, Amica iteratively matches these rules with dataflow graph to obtain the optimizable candidates. The candidate that maximizes latency reduction is chosen to update the dataflow graph. Finally, Amica synthesizes the appropriate instructions for optimizable blocks in accordance with instruction syntax and block properties. We implemented and evaluated Amica on benchmark Simulink models. Compared with the state-of-the-art code generators Simulink Embedded Coder, Mercury, and Frodo, the code generated by Amica is 1.29× - 8.36× faster in terms of execution time across different platforms. Besides, Amica reduces 6% - 53% assembly code size of the compiled programs, while performing similarly in terms of data segment size and BSS segment size.
   </details>
 - 📄 **Are Humans and LLMs Confused by the Same Code? An Empirical Study on Fixation-Related Potentials and LLM Perplexity**  
   Authors: Y Abdelsalam, N Peitek, AM Maurer, M Toneva, S Apel<br/>
   <a href="https://www.se.cs.uni-saarland.de/publications/docs/APM+26.pdf" target="_blank">Preprint</a><br/>
   <details>
     <summary><strong>⭐ Abstract</strong></summary>
-    
+    Already today, humans and programming assistants based on large language models (LLMs) collaborate in everyday programming tasks. Clearly, a misalignment between how LLMs and programmers comprehend code can lead to misunderstandings, inefficiencies, low code quality, and bugs. A key question in this space is whether humans and LLMs are confused by the same kind of code. This would not only guide our choices of integrating LLMs in software engineering workflows but also inform about possible improvements of LLMs. To this end, we conducted an empirical study comparing an LLM to human programmers comprehending clean and confusing code. We operationalized comprehension for the LLM by using LLM perplexity, and for human programmers using neurophysiological responses (in particular, EEG-based fixation-related potentials). We found that LLM perplexity spikes correlate, both in terms of location and amplitude, with human neurophysiological responses that indicate confusion. This result suggests that LLMs and humans are similarly confused about the code. Based on these findings, we devised a data-driven, LLM-based approach to identify regions of confusion in code that elicit confusion in human programmers.
   </details>
 - 📄 **Hallucinating Certificates: Differential Testing of TLS Certificate Validation Using Generative Language Models**  
   Authors: MT Paracha, K Posluns, K Borgolte, M Lindorfer, D Choffnes<br/>
   <a href="https://softsec.ruhr-uni-bochum.de/files/pdf/icse2026-hallucinating-certificates.pdf" target="_blank">Preprint</a><br/>
   <details>
     <summary><strong>⭐ Abstract</strong></summary>
-    
+    Certificate validation is a crucial step in Transport Layer Security (TLS), the de facto standard network security protocol. Prior research has shown that differentially testing TLS implementations with synthetic certificates can reveal critical security issues, such as accidentally accepting untrusted certificates. Leveraging known techniques, like random input mutations and program coverage guidance, prior work created corpora of synthetic certificates. By testing the certificates with multiple TLS libraries and comparing the validation outcomes, they discovered new bugs. However, they cannot generate the corresponding inputs efficiently, or they require to model the programs and their inputs in ways that scale poorly. In this paper, we introduce a new approach, MLCerts, to generate synthetic certificates for differential testing that leverages generative language models to more extensively test software implementations. Recently, these models have become (in)famous for their applications in generating content, writing code, and conversing with users, as well as for “hallucinating” syntactically correct yet semantically nonsensical output. In this paper, we provide and leverage two novel insights: (a) TLS certificates can be expressed in natural-like language, namely in the X.509 standard that aids human readability, and (b) differential testing can benefit from hallucinated malformed test cases. Using our approach MLCerts, we find significantly more distinct discrepancies between the five TLS implementations OpenSSL, LibreSSL, GnuTLS, MbedTLS, and MatrixSSL than the state-of-the-art benchmark Transcert (+30%; 20 vs 26, out of a maximum possible of 30) and an order of magnitude more than the seminal work Frankencerts (+1,200%; 2 vs 26). Finally, we show that the diversity of MLCerts-generated certificates reveals a range of previously unobserved and interesting behavior with security implications.
   </details>
 - 📄 **PTV: Scalable Version Detection of Web Libraries and its Security Application**  
   Authors: X Liu, H Cai, L Ziarek<br/>
   <a href="https://aaronxyliu.github.io/download/ptv-ready.pdf" target="_blank">Preprint</a><br/>
   <details>
     <summary><strong>⭐ Abstract</strong></summary>
-    
+    Identifying the libraries used by a web application is an important task for sales intelligence, website profiling, and web security analysis. Recent work uses tree structures to represent the property relationships of the library at runtime, realizing automatic library identification without pinpointing versions. But when assessing the security risks associated with these web libraries or conducting fine-grained software analysis, it becomes essential to determine the specific version of the library in use. However, existing treebased methods are not directly applicable to version detection due to the huge storage requirements for maintaining separate trees for a large number of versions. This paper proposes a novel algorithm to find the most unique structure out of each tree in a forest so that the footprint of the features can be greatly minimized. We implement this algorithm into a web library detection tool. Experimental evaluations on 556 web libraries, encompassing 30,810 versions, reveal that our tool reduces space requirements by up to 99%, achieves more precise version detection compared to existing tools, and detects 190 vulnerabilities on 200 top-traffic websites.
   </details>
 - 📄 **Exploring and Improving Real-World Vulnerability Data Generation via Prompting Large Language Models**  
   Authors: G Yi, Y Nong, M Li, H Cai<br/>
   <a href="https://www.researchgate.net/profile/Haipeng-Cai/publication/397867637_Exploring_and_Improving_Real-World_Vulnerability_Data_Generation_via_Prompting_Large_Language_Models/links/69213f11e889e65e79684967/Exploring-and-Improving-Real-World-Vulnerability-Data-Generation-via-Prompting-Large-Language-Models.pdf" target="_blank">Preprint</a><br/>
   <details>
     <summary><strong>⭐ Abstract</strong></summary>
-    
+    Data-driven approaches have proven to be promising for vulner-ability analysis, contingent on quality and sizable training data being available. Several dedicated vulnerability data generation techniques have demonstrated strong merits, yet they are limited to simple (single-line injection induced) vulnerabilities only and suffer from overfitting to seed samples. Large language models (LLMs) may overcome these fundamental limitations as they are known to be effective at generative tasks. However, it remains unclear how they would perform on the task of vulnerable sample gen-eration. In this paper, we explore the potential and gaps of seven state-of-the-art (SOTA) LLMs for that task via prompting. We reveal that the LLMs are capable of injecting vulnerabilities, with advanced prompting strategies such as few-shot in-context learning and our new vulnerability-introducing code-change se-mantics (VICS) guided prompting boosting the effectiveness, achiev-ing up to 93% success rate on a synthetic dataset and 88% on real-world code. The LLMs can effectively perform both single- and multi-line injections, addressing a key limitation of prior work. Notably, they exhibit a strong preference for replacement edits, different from ground-truth patterns, and their effectiveness varies across CWE types. Furthermore, LLMs, particularly with VICS, out-perform existing SOTA vulnerability generators with success rate improvements of up to 210%-343%. Crucially, the LLM-generated data substantially improves the performance of downstream DL-based vulnerability analysis models, especially with multi-line in-jections, boosting their accuracy by up to 70.1%. The generated samples also enhance the effectiveness of other LLMs for vulnera-bility analysis via RAG, with multi-line-injected samples yielding up to 16.5% gains. Most importantly, our findings reveal that, aug-menting existing DL models with high-quality, LLM-generated data can lead to vulnerability analysis performance (up to 67.50% accu-racy) superior to that of even the most advanced LLMs performing the same analysis (up to 27.40%), indicating the usefulness of the LLM-generated vulnerability data at present and in the longer term.
   </details>
 - 📄 **AgentSpec: Customizable runtime enforcement for safe and reliable LLM agents**  
   Authors: WANG, Haoyu; POSKITT, Christopher M.; and SUN, Jun<br/>
   <a href="https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?params=/context/sis_research/article/11279/&path_info=2503.18666v3.pdf" target="_blank">Preprint</a><br/>
+  <details>
+    <summary><strong>⭐ Abstract</strong></summary>
+    Agents built on LLMs are increasingly deployed across diverse domains, automating complex decision-making and task execution. However, their autonomy introduces safety risks, including security vulnerabilities, legal violations, and unintended harmful actions. Existing mitigation methods, such as model-based safeguards and early enforcement strategies, fall short in robustness, interpretability, and adaptability. To address these challenges, we propose AgentSpec, a lightweight domain-specific language for specifying and enforcing runtime constraints on LLM agents. With AgentSpec, users define structured rules that incorporate triggers, predicates, and enforcement mechanisms, ensuring agents operate within predefined safety boundaries. We implement AgentSpec across multiple domains, including code execution, embodied agents, and autonomous driving, demonstrating its adaptability and effectiveness. Our evaluation shows that AgentSpec successfully prevents unsafe executions in over 90% of code agent cases, eliminates all hazardous actions in embodied agent tasks, and enforces 100% compliance by autonomous vehicles (AVs). Despite its strong safety guarantees, AgentSpec remains computationally lightweight, with overheads in milliseconds. By combining interpretability, modularity, and efficiency, AgentSpec provides a practical and scalable solution for enforcing LLM agent safety across diverse applications. We also automate the generation of rules using LLMs and assess their effectiveness. Our evaluation shows that the rules generated by OpenAI o1 achieve a precision of 95.56% and recall of 70.96% for embodied agents, successfully identify 87.26% of the risky code, and prevent AVs from breaking laws in 5 out of 8 scenarios.
+  </details>
 - 📄 **Views on Internal and External Validity in Empirical Software Engineering: 10 Years Later and Beyond**  
   Authors: Alina Mailach, Janet Siegmund, Sven Apel, and Norbert Siegmund<br/>
   <a href="https://www.tu-chemnitz.de/informatik/ST/publications/papers/10-years-validity.pdf" target="_blank">Preprint</a><br/>
   <details>
     <summary><strong>⭐ Abstract</strong></summary>
-    
+    Ten years ago, a survey (ICSE’15) revealed an unsatisfactory picture  among key players of the software engineering research community: There was dissent and confusion on how to approach empirical research. Specifically, researchers were divided on the tradeoff  between internal and external validity, holding strong and often  opposing opinions, which cannot be a basis for stringent scientific  progress. Clearly, the field has progressed over the last decade, but  did the views progress, as well, or is the community still divided and  confused? Our study addresses these questions by replicating the  original survey among current key players of the field. Analyzing  790 open answers learning how perspectives have changed over  the past ten years, we found that, despite increased awareness of  the intricacies of conducting empirical studies, not nearly enough  has changed to address the wide range of opinions on what a good  study is and how that can be reflected in the review process. Specifically, participants disagree on balancing internal, external, and  ecological validity, and while there is consensus on the need for  replication studies, the specifics of when, how, and what to replicate  remain unclear. Our results suggest the need for a more sophisticated review process, incorporating clear empirical standards for  various methods and fostering honest discussions on what is worth  replicating.
   </details>
 - 📄 **Advancing Language Models for Code-related Tasks**  
   Authors: Zhao Tian<br/>
   <a href="https://arxiv.org/abs/2601.04526" target="_blank">Preprint</a><br/>
   <details>
     <summary><strong>⭐ Abstract</strong></summary>
-    
+    Recent advances in language models (LMs) have driven significant progress in various software engineering tasks. However, existing LMs still struggle with complex programming scenarios due to limitations in data quality, model architecture, and reasoning capability. This research systematically addresses these challenges through three complementary directions: (1) improving code data quality with a code difference-guided adversarial augmentation technique (CODA) and a code denoising technique (CodeDenoise); (2) enhancing model architecture via syntax-guided code LMs (LEAM and LEAM++); and (3) advancing model reasoning with a prompting technique (muFiX) and an agent-based technique (Specine). These techniques aim to promote the practical adoption of LMs in software development and further advance intelligent software engineering.
   </details>
 - 📄 **Six Million (Suspected) Fake Stars on GitHub: A Growing Spiral of Popularity Contests, Spam, and Malware**  
   Authors: Hao He, Haoqin Yang, Philipp Burckhardt, Alexandros Kapravelos, Bogdan Vasilescu, and Christian Kästner<br/>
@@ -135,26 +139,18 @@ In this paper, we present RovoDev Code Reviewer, an enterprise-grade LLM-based c
   </details>
 
 
-# 🤝 Contributing
-If you find additional publicly accessible preprints for ICSE 2026, feel free to:
-
-Open an issue
-
-Submit a pull request
-
-Or contact me directly
-
-Please ensure that any submitted link is publicly accessible and not a copyrighted publisher PDF.
+# 📌 Contributing
+If you find additional publicly accessible preprints for ICSE 2026, feel free to:<br/>
+- Open an issue<br/>
+- Submit a pull request<br/>
+- Or contact me directly<br/>
+- Please ensure that any submitted link is publicly accessible and not a copyrighted publisher PDF.
 
 # ⚠️ Disclaimer
-This repository:
-
-Is unofficial and not affiliated with ICSE, IEEE, or ACM
-
-Does not host any copyrighted material
-
-Only indexes links that are already publicly available
-
-Does not claim completeness or accuracy of the full ICSE 2026 program
+This repository:<br/>
+- Is unofficial and not affiliated with ICSE, IEEE, or ACM
+- Does not host any copyrighted material
+- Only indexes links that are already publicly available
+- Does not claim completeness or accuracy of the full ICSE 2026 program
 
 If any author wishes their link to be removed or updated, please open an issue.
